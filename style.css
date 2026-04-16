@@ -148,7 +148,7 @@ margin-left: 15px;
 .hero-section{
     background-image: url("hero.jpg");
     background-size: cover;
-    height: 400px;
+    min-height: 500px;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -158,19 +158,16 @@ margin-left: 15px;
 .hero-msg{
     background-color: white;
     color: black;
-    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.85rem;
-    bottom: 25px;
-    position: relative;
     width: 80%;
     margin: 20px auto;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding: 10px;
+    flex-wrap: wrap;
     text-align: center;
-    margin-top: -50px;
 }
 
 .hero-msg a {
